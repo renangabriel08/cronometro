@@ -1,0 +1,56 @@
+section {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    .card {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 15px;
+        .timer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: 82px;
+                color: #fff;
+                margin-bottom: 10px;
+                @media(max-width: 500px) {
+                    font-size: 50px;
+                }
+                @media(max-width: 315px) {
+                    font-size: 40px;
+                }
+            }
+            span {
+                font-size: 82px;
+                color: #fff;
+                @media(max-width: 500px) {
+                    font-size: 50px;
+                }
+                @media(max-width: 315px) {
+                    font-size: 40px;
+                }
+            }
+        }
+        .botoes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            flex-wrap: wrap;
+            gap: 10px;
+
+            margin: 0px 15.5px;
+            @media(max-width: 340px) {
+                margin: 0;
+           }
+        }
+    }
+}

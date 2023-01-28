@@ -1,0 +1,26 @@
+button {
+    width: 15rem;
+    height: 45px;
+    border-radius: 5rem;
+
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #512e8aa6;
+    border: solid 2px #FFF;
+    font-weight: bold;
+    
+    transition: 0.5s;
+    &:hover {
+        cursor: pointer;
+        background-color: #FFF;
+        color: #512e8aa6;
+        border: solid 2px #512e8aa6;
+        transition: 0.5s;
+    }
+    @media(max-width: 340px) {
+         width: 270px;
+    }
+    @media(max-width: 315px) {
+        width: 230px;
+   }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="icon" href="./assets/icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Cronometro</title>
+</head>
+<body>
+ 
+<section>
+    <div class="card">
+        <div class="timer">
+            <span id="hora">00</span>
+            <p>:</p>
+            <span id="minuto">00</span>
+            <p>:</p>
+            <span id="segundo">00</span>
+            <p>:</p>
+            <span id="milissegundo">000</span>
+        </div>
+        <div class="botoes">
+            <button onclick="start()">Inicio </button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="reset()">Reiniciar</button>
+        </div>
+    </div>
+</section>
+
+</body>
+<script src="./js/main.js"></script>
+</html>
